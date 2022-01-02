@@ -1,0 +1,821 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		11027903225E492C006BC071 /* BingoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11027902225E492C006BC071 /* BingoTableViewCell.swift */; };
+		112A24CF2236B1B20015E6B7 /* ViewEventViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112A24CE2236B1B20015E6B7 /* ViewEventViewController.swift */; };
+		11582855224ACA2A00363D93 /* Buy5050ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11582854224ACA2A00363D93 /* Buy5050ViewController.swift */; };
+		11582857224AD2D900363D93 /* UserItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11582856224AD2D900363D93 /* UserItem.swift */; };
+		115A0FB7224BEF0700560B9A /* WalletViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 115A0FB6224BEF0700560B9A /* WalletViewController.swift */; };
+		115A0FB9224BF06A00560B9A /* WalletTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 115A0FB8224BF06A00560B9A /* WalletTableViewCell.swift */; };
+		115A0FBB224BF35600560B9A /* TicketSOHBItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 115A0FBA224BF35600560B9A /* TicketSOHBItem.swift */; };
+		115DCAE7222A8E72003EE7A4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 115DCAE6222A8E72003EE7A4 /* AppDelegate.swift */; };
+		115DCAE9222A8E72003EE7A4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 115DCAE8222A8E72003EE7A4 /* ViewController.swift */; };
+		115DCAEC222A8E72003EE7A4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 115DCAEA222A8E72003EE7A4 /* Main.storyboard */; };
+		115DCAF4222A8E73003EE7A4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 115DCAF2222A8E73003EE7A4 /* LaunchScreen.storyboard */; };
+		115DCAFF222A8E73003EE7A4 /* FYPTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 115DCAFE222A8E73003EE7A4 /* FYPTests.swift */; };
+		115DCB0A222A8E73003EE7A4 /* FYPUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 115DCB09222A8E73003EE7A4 /* FYPUITests.swift */; };
+		115DCB18222A9012003EE7A4 /* FixtureTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 115DCB17222A9012003EE7A4 /* FixtureTableViewCell.swift */; };
+		115DCB1A222A906C003EE7A4 /* HomeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 115DCB19222A906C003EE7A4 /* HomeTableViewController.swift */; };
+		115DCB1C222A916B003EE7A4 /* FixtureItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 115DCB1B222A916B003EE7A4 /* FixtureItem.swift */; };
+		115DCB1E222A985A003EE7A4 /* EventTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 115DCB1D222A985A003EE7A4 /* EventTableViewCell.swift */; };
+		115DCB20222A988E003EE7A4 /* FixtureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 115DCB1F222A988E003EE7A4 /* FixtureViewController.swift */; };
+		115DCB22222AA139003EE7A4 /* EventItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 115DCB21222AA139003EE7A4 /* EventItem.swift */; };
+		115DCB24222AAAE3003EE7A4 /* EventViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 115DCB23222AAAE3003EE7A4 /* EventViewController.swift */; };
+		115DCB28222AC4B6003EE7A4 /* PlayersTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 115DCB27222AC4B6003EE7A4 /* PlayersTableViewController.swift */; };
+		115DCB2A222AC730003EE7A4 /* PlayerItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 115DCB29222AC730003EE7A4 /* PlayerItem.swift */; };
+		115DCB2C222AC86F003EE7A4 /* PlayerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 115DCB2B222AC86F003EE7A4 /* PlayerTableViewCell.swift */; };
+		115DCB2E222ADC3A003EE7A4 /* BingoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 115DCB2D222ADC3A003EE7A4 /* BingoViewController.swift */; };
+		115DCB30222ADD17003EE7A4 /* BingoEventItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 115DCB2F222ADD17003EE7A4 /* BingoEventItem.swift */; };
+		1165DC30223011FB003D5F6B /* TeamsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1165DC2F223011FB003D5F6B /* TeamsTableViewController.swift */; };
+		1165DC322230120F003D5F6B /* TeamItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1165DC312230120F003D5F6B /* TeamItem.swift */; };
+		1165DC3422303764003D5F6B /* AddFixtureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1165DC3322303764003D5F6B /* AddFixtureViewController.swift */; };
+		1165DC3622304142003D5F6B /* AddTeamViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1165DC3522304142003D5F6B /* AddTeamViewController.swift */; };
+		1165DC3A22304ACC003D5F6B /* AdminFixtureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1165DC3922304ACC003D5F6B /* AdminFixtureViewController.swift */; };
+		1165DC3D22351A11003D5F6B /* FYP.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1165DC3B22351A11003D5F6B /* FYP.xcdatamodeld */; };
+		1165DC3F22352029003D5F6B /* Ticket50Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1165DC3E22352029003D5F6B /* Ticket50Item.swift */; };
+		1165DC4322354F04003D5F6B /* AddPenaltyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1165DC4222354F04003D5F6B /* AddPenaltyViewController.swift */; };
+		1165DC45223555DE003D5F6B /* AddGoalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1165DC44223555DE003D5F6B /* AddGoalViewController.swift */; };
+		116902CA223576770062D92B /* ViewPlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 116902C9223576770062D92B /* ViewPlayerViewController.swift */; };
+		117343B8225DE60900F64420 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 117343B7225DE60900F64420 /* Assets.xcassets */; };
+		11754CEC224CFDCD00EA0D9D /* BuySOHBViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11754CEB224CFDCD00EA0D9D /* BuySOHBViewController.swift */; };
+		11754CEE224D09A400EA0D9D /* WalletSOHBTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11754CED224D09A400EA0D9D /* WalletSOHBTableViewCell.swift */; };
+		11856D9E2242B2EE00A13A59 /* AdminGamesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11856D9D2242B2EE00A13A59 /* AdminGamesViewController.swift */; };
+		11856DA02242B30200A13A59 /* AdminBingoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11856D9F2242B30200A13A59 /* AdminBingoViewController.swift */; };
+		11856DA22242B95600A13A59 /* AddBingoEventViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11856DA12242B95600A13A59 /* AddBingoEventViewController.swift */; };
+		11856DA42243B94300A13A59 /* PredictorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11856DA32243B94300A13A59 /* PredictorViewController.swift */; };
+		11AB8FBB223007F00043E6F4 /* AdminFixturesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11AB8FBA223007F00043E6F4 /* AdminFixturesTableViewController.swift */; };
+		11AB8FBF22300C5D0043E6F4 /* TeamTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11AB8FBE22300C5D0043E6F4 /* TeamTableViewCell.swift */; };
+		11B419AE225F2F120092035D /* PenaltyItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B419AD225F2F120092035D /* PenaltyItem.swift */; };
+		11E7AA0F22477FAA00AE14EB /* BingoEventTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E7AA0E22477FAA00AE14EB /* BingoEventTableViewCell.swift */; };
+		11E7AA11224A1C6200AE14EB /* AdminPlayersTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E7AA10224A1C6200AE14EB /* AdminPlayersTableViewController.swift */; };
+		11E7AA13224A242100AE14EB /* AddPlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E7AA12224A242100AE14EB /* AddPlayerViewController.swift */; };
+		11E7AA15224A370400AE14EB /* AdminTicketsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E7AA14224A370400AE14EB /* AdminTicketsViewController.swift */; };
+		11E7AA17224A371700AE14EB /* View5050TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E7AA16224A371700AE14EB /* View5050TableViewController.swift */; };
+		11E7AA19224A372300AE14EB /* ViewSOHBTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E7AA18224A372300AE14EB /* ViewSOHBTableViewController.swift */; };
+		11E7AA1B224A373900AE14EB /* TicketTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E7AA1A224A373900AE14EB /* TicketTableViewCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		115DCAFB222A8E73003EE7A4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 115DCADB222A8E72003EE7A4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 115DCAE2222A8E72003EE7A4;
+			remoteInfo = FYP;
+		};
+		115DCB06222A8E73003EE7A4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 115DCADB222A8E72003EE7A4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 115DCAE2222A8E72003EE7A4;
+			remoteInfo = FYP;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		11027902225E492C006BC071 /* BingoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BingoTableViewCell.swift; sourceTree = "<group>"; };
+		112A24CE2236B1B20015E6B7 /* ViewEventViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewEventViewController.swift; sourceTree = "<group>"; };
+		11582854224ACA2A00363D93 /* Buy5050ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Buy5050ViewController.swift; sourceTree = "<group>"; };
+		11582856224AD2D900363D93 /* UserItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserItem.swift; sourceTree = "<group>"; };
+		115A0FB6224BEF0700560B9A /* WalletViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletViewController.swift; sourceTree = "<group>"; };
+		115A0FB8224BF06A00560B9A /* WalletTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletTableViewCell.swift; sourceTree = "<group>"; };
+		115A0FBA224BF35600560B9A /* TicketSOHBItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketSOHBItem.swift; sourceTree = "<group>"; };
+		115DCAE3222A8E72003EE7A4 /* FYP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FYP.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		115DCAE6222A8E72003EE7A4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		115DCAE8222A8E72003EE7A4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		115DCAEB222A8E72003EE7A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		115DCAF3222A8E73003EE7A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		115DCAF5222A8E73003EE7A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		115DCAFA222A8E73003EE7A4 /* FYPTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FYPTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		115DCAFE222A8E73003EE7A4 /* FYPTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FYPTests.swift; sourceTree = "<group>"; };
+		115DCB00222A8E73003EE7A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		115DCB05222A8E73003EE7A4 /* FYPUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FYPUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		115DCB09222A8E73003EE7A4 /* FYPUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FYPUITests.swift; sourceTree = "<group>"; };
+		115DCB0B222A8E73003EE7A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		115DCB17222A9012003EE7A4 /* FixtureTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FixtureTableViewCell.swift; sourceTree = "<group>"; };
+		115DCB19222A906C003EE7A4 /* HomeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableViewController.swift; sourceTree = "<group>"; };
+		115DCB1B222A916B003EE7A4 /* FixtureItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FixtureItem.swift; sourceTree = "<group>"; };
+		115DCB1D222A985A003EE7A4 /* EventTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventTableViewCell.swift; sourceTree = "<group>"; };
+		115DCB1F222A988E003EE7A4 /* FixtureViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FixtureViewController.swift; sourceTree = "<group>"; };
+		115DCB21222AA139003EE7A4 /* EventItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventItem.swift; sourceTree = "<group>"; };
+		115DCB23222AAAE3003EE7A4 /* EventViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventViewController.swift; sourceTree = "<group>"; };
+		115DCB27222AC4B6003EE7A4 /* PlayersTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayersTableViewController.swift; sourceTree = "<group>"; };
+		115DCB29222AC730003EE7A4 /* PlayerItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerItem.swift; sourceTree = "<group>"; };
+		115DCB2B222AC86F003EE7A4 /* PlayerTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerTableViewCell.swift; sourceTree = "<group>"; };
+		115DCB2D222ADC3A003EE7A4 /* BingoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BingoViewController.swift; sourceTree = "<group>"; };
+		115DCB2F222ADD17003EE7A4 /* BingoEventItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BingoEventItem.swift; sourceTree = "<group>"; };
+		1165DC2F223011FB003D5F6B /* TeamsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamsTableViewController.swift; sourceTree = "<group>"; };
+		1165DC312230120F003D5F6B /* TeamItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamItem.swift; sourceTree = "<group>"; };
+		1165DC3322303764003D5F6B /* AddFixtureViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddFixtureViewController.swift; sourceTree = "<group>"; };
+		1165DC3522304142003D5F6B /* AddTeamViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTeamViewController.swift; sourceTree = "<group>"; };
+		1165DC3922304ACC003D5F6B /* AdminFixtureViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminFixtureViewController.swift; sourceTree = "<group>"; };
+		1165DC3C22351A11003D5F6B /* FYP.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FYP.xcdatamodel; sourceTree = "<group>"; };
+		1165DC3E22352029003D5F6B /* Ticket50Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ticket50Item.swift; sourceTree = "<group>"; };
+		1165DC4222354F04003D5F6B /* AddPenaltyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPenaltyViewController.swift; sourceTree = "<group>"; };
+		1165DC44223555DE003D5F6B /* AddGoalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddGoalViewController.swift; sourceTree = "<group>"; };
+		116902C9223576770062D92B /* ViewPlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewPlayerViewController.swift; sourceTree = "<group>"; };
+		117343B7225DE60900F64420 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		11754CEB224CFDCD00EA0D9D /* BuySOHBViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuySOHBViewController.swift; sourceTree = "<group>"; };
+		11754CED224D09A400EA0D9D /* WalletSOHBTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletSOHBTableViewCell.swift; sourceTree = "<group>"; };
+		11856D9D2242B2EE00A13A59 /* AdminGamesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminGamesViewController.swift; sourceTree = "<group>"; };
+		11856D9F2242B30200A13A59 /* AdminBingoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminBingoViewController.swift; sourceTree = "<group>"; };
+		11856DA12242B95600A13A59 /* AddBingoEventViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddBingoEventViewController.swift; sourceTree = "<group>"; };
+		11856DA32243B94300A13A59 /* PredictorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PredictorViewController.swift; sourceTree = "<group>"; };
+		11AB8FB7222F06E00043E6F4 /* FYP.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FYP.entitlements; sourceTree = "<group>"; };
+		11AB8FBA223007F00043E6F4 /* AdminFixturesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminFixturesTableViewController.swift; sourceTree = "<group>"; };
+		11AB8FBE22300C5D0043E6F4 /* TeamTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamTableViewCell.swift; sourceTree = "<group>"; };
+		11B419AD225F2F120092035D /* PenaltyItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PenaltyItem.swift; sourceTree = "<group>"; };
+		11E7AA0E22477FAA00AE14EB /* BingoEventTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BingoEventTableViewCell.swift; sourceTree = "<group>"; };
+		11E7AA10224A1C6200AE14EB /* AdminPlayersTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminPlayersTableViewController.swift; sourceTree = "<group>"; };
+		11E7AA12224A242100AE14EB /* AddPlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPlayerViewController.swift; sourceTree = "<group>"; };
+		11E7AA14224A370400AE14EB /* AdminTicketsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminTicketsViewController.swift; sourceTree = "<group>"; };
+		11E7AA16224A371700AE14EB /* View5050TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View5050TableViewController.swift; sourceTree = "<group>"; };
+		11E7AA18224A372300AE14EB /* ViewSOHBTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewSOHBTableViewController.swift; sourceTree = "<group>"; };
+		11E7AA1A224A373900AE14EB /* TicketTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketTableViewCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		115DCAE0222A8E72003EE7A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		115DCAF7222A8E73003EE7A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		115DCB02222A8E73003EE7A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		115DCADA222A8E71003EE7A4 = {
+			isa = PBXGroup;
+			children = (
+				115DCAE5222A8E72003EE7A4 /* FYP */,
+				115DCAFD222A8E73003EE7A4 /* FYPTests */,
+				115DCB08222A8E73003EE7A4 /* FYPUITests */,
+				115DCAE4222A8E72003EE7A4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		115DCAE4222A8E72003EE7A4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				115DCAE3222A8E72003EE7A4 /* FYP.app */,
+				115DCAFA222A8E73003EE7A4 /* FYPTests.xctest */,
+				115DCB05222A8E73003EE7A4 /* FYPUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		115DCAE5222A8E72003EE7A4 /* FYP */ = {
+			isa = PBXGroup;
+			children = (
+				1165DC3B22351A11003D5F6B /* FYP.xcdatamodeld */,
+				11AB8FB7222F06E00043E6F4 /* FYP.entitlements */,
+				115DCB32222ADEC2003EE7A4 /* Table Cells */,
+				115DCB31222ADEA0003EE7A4 /* Data Models */,
+				11AB8FBC223007FB0043E6F4 /* Admin */,
+				115DCAE6222A8E72003EE7A4 /* AppDelegate.swift */,
+				115DCAEA222A8E72003EE7A4 /* Main.storyboard */,
+				115DCAF2222A8E73003EE7A4 /* LaunchScreen.storyboard */,
+				117343B7225DE60900F64420 /* Assets.xcassets */,
+				115DCAF5222A8E73003EE7A4 /* Info.plist */,
+				115DCAE8222A8E72003EE7A4 /* ViewController.swift */,
+				115DCB19222A906C003EE7A4 /* HomeTableViewController.swift */,
+				115DCB1F222A988E003EE7A4 /* FixtureViewController.swift */,
+				115DCB23222AAAE3003EE7A4 /* EventViewController.swift */,
+				115DCB27222AC4B6003EE7A4 /* PlayersTableViewController.swift */,
+				115DCB2D222ADC3A003EE7A4 /* BingoViewController.swift */,
+				116902C9223576770062D92B /* ViewPlayerViewController.swift */,
+				11856DA32243B94300A13A59 /* PredictorViewController.swift */,
+				11582854224ACA2A00363D93 /* Buy5050ViewController.swift */,
+				115A0FB6224BEF0700560B9A /* WalletViewController.swift */,
+				11754CEB224CFDCD00EA0D9D /* BuySOHBViewController.swift */,
+			);
+			path = FYP;
+			sourceTree = "<group>";
+		};
+		115DCAFD222A8E73003EE7A4 /* FYPTests */ = {
+			isa = PBXGroup;
+			children = (
+				115DCAFE222A8E73003EE7A4 /* FYPTests.swift */,
+				115DCB00222A8E73003EE7A4 /* Info.plist */,
+			);
+			path = FYPTests;
+			sourceTree = "<group>";
+		};
+		115DCB08222A8E73003EE7A4 /* FYPUITests */ = {
+			isa = PBXGroup;
+			children = (
+				115DCB09222A8E73003EE7A4 /* FYPUITests.swift */,
+				115DCB0B222A8E73003EE7A4 /* Info.plist */,
+			);
+			path = FYPUITests;
+			sourceTree = "<group>";
+		};
+		115DCB31222ADEA0003EE7A4 /* Data Models */ = {
+			isa = PBXGroup;
+			children = (
+				115DCB1B222A916B003EE7A4 /* FixtureItem.swift */,
+				115DCB21222AA139003EE7A4 /* EventItem.swift */,
+				115DCB29222AC730003EE7A4 /* PlayerItem.swift */,
+				115DCB2F222ADD17003EE7A4 /* BingoEventItem.swift */,
+				1165DC312230120F003D5F6B /* TeamItem.swift */,
+				1165DC3E22352029003D5F6B /* Ticket50Item.swift */,
+				11582856224AD2D900363D93 /* UserItem.swift */,
+				115A0FBA224BF35600560B9A /* TicketSOHBItem.swift */,
+				11B419AD225F2F120092035D /* PenaltyItem.swift */,
+			);
+			path = "Data Models";
+			sourceTree = "<group>";
+		};
+		115DCB32222ADEC2003EE7A4 /* Table Cells */ = {
+			isa = PBXGroup;
+			children = (
+				115DCB2B222AC86F003EE7A4 /* PlayerTableViewCell.swift */,
+				115DCB1D222A985A003EE7A4 /* EventTableViewCell.swift */,
+				115DCB17222A9012003EE7A4 /* FixtureTableViewCell.swift */,
+				11AB8FBE22300C5D0043E6F4 /* TeamTableViewCell.swift */,
+				11E7AA0E22477FAA00AE14EB /* BingoEventTableViewCell.swift */,
+				11E7AA1A224A373900AE14EB /* TicketTableViewCell.swift */,
+				115A0FB8224BF06A00560B9A /* WalletTableViewCell.swift */,
+				11754CED224D09A400EA0D9D /* WalletSOHBTableViewCell.swift */,
+				11027902225E492C006BC071 /* BingoTableViewCell.swift */,
+			);
+			path = "Table Cells";
+			sourceTree = "<group>";
+		};
+		11AB8FBC223007FB0043E6F4 /* Admin */ = {
+			isa = PBXGroup;
+			children = (
+				11AB8FBA223007F00043E6F4 /* AdminFixturesTableViewController.swift */,
+				1165DC2F223011FB003D5F6B /* TeamsTableViewController.swift */,
+				1165DC3322303764003D5F6B /* AddFixtureViewController.swift */,
+				1165DC3522304142003D5F6B /* AddTeamViewController.swift */,
+				1165DC3922304ACC003D5F6B /* AdminFixtureViewController.swift */,
+				1165DC4222354F04003D5F6B /* AddPenaltyViewController.swift */,
+				1165DC44223555DE003D5F6B /* AddGoalViewController.swift */,
+				112A24CE2236B1B20015E6B7 /* ViewEventViewController.swift */,
+				11856D9D2242B2EE00A13A59 /* AdminGamesViewController.swift */,
+				11856D9F2242B30200A13A59 /* AdminBingoViewController.swift */,
+				11856DA12242B95600A13A59 /* AddBingoEventViewController.swift */,
+				11E7AA10224A1C6200AE14EB /* AdminPlayersTableViewController.swift */,
+				11E7AA12224A242100AE14EB /* AddPlayerViewController.swift */,
+				11E7AA14224A370400AE14EB /* AdminTicketsViewController.swift */,
+				11E7AA16224A371700AE14EB /* View5050TableViewController.swift */,
+				11E7AA18224A372300AE14EB /* ViewSOHBTableViewController.swift */,
+			);
+			path = Admin;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		115DCAE2222A8E72003EE7A4 /* FYP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 115DCB0E222A8E73003EE7A4 /* Build configuration list for PBXNativeTarget "FYP" */;
+			buildPhases = (
+				115DCADF222A8E72003EE7A4 /* Sources */,
+				115DCAE0222A8E72003EE7A4 /* Frameworks */,
+				115DCAE1222A8E72003EE7A4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FYP;
+			productName = FYP;
+			productReference = 115DCAE3222A8E72003EE7A4 /* FYP.app */;
+			productType = "com.apple.product-type.application";
+		};
+		115DCAF9222A8E73003EE7A4 /* FYPTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 115DCB11222A8E73003EE7A4 /* Build configuration list for PBXNativeTarget "FYPTests" */;
+			buildPhases = (
+				115DCAF6222A8E73003EE7A4 /* Sources */,
+				115DCAF7222A8E73003EE7A4 /* Frameworks */,
+				115DCAF8222A8E73003EE7A4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				115DCAFC222A8E73003EE7A4 /* PBXTargetDependency */,
+			);
+			name = FYPTests;
+			productName = FYPTests;
+			productReference = 115DCAFA222A8E73003EE7A4 /* FYPTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		115DCB04222A8E73003EE7A4 /* FYPUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 115DCB14222A8E73003EE7A4 /* Build configuration list for PBXNativeTarget "FYPUITests" */;
+			buildPhases = (
+				115DCB01222A8E73003EE7A4 /* Sources */,
+				115DCB02222A8E73003EE7A4 /* Frameworks */,
+				115DCB03222A8E73003EE7A4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				115DCB07222A8E73003EE7A4 /* PBXTargetDependency */,
+			);
+			name = FYPUITests;
+			productName = FYPUITests;
+			productReference = 115DCB05222A8E73003EE7A4 /* FYPUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		115DCADB222A8E72003EE7A4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Claire Smith";
+				TargetAttributes = {
+					115DCAE2222A8E72003EE7A4 = {
+						CreatedOnToolsVersion = 10.1;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+					115DCAF9222A8E73003EE7A4 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 115DCAE2222A8E72003EE7A4;
+					};
+					115DCB04222A8E73003EE7A4 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 115DCAE2222A8E72003EE7A4;
+					};
+				};
+			};
+			buildConfigurationList = 115DCADE222A8E72003EE7A4 /* Build configuration list for PBXProject "FYP" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 115DCADA222A8E71003EE7A4;
+			productRefGroup = 115DCAE4222A8E72003EE7A4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				115DCAE2222A8E72003EE7A4 /* FYP */,
+				115DCAF9222A8E73003EE7A4 /* FYPTests */,
+				115DCB04222A8E73003EE7A4 /* FYPUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		115DCAE1222A8E72003EE7A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				115DCAF4222A8E73003EE7A4 /* LaunchScreen.storyboard in Resources */,
+				117343B8225DE60900F64420 /* Assets.xcassets in Resources */,
+				115DCAEC222A8E72003EE7A4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		115DCAF8222A8E73003EE7A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		115DCB03222A8E73003EE7A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		115DCADF222A8E72003EE7A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11754CEE224D09A400EA0D9D /* WalletSOHBTableViewCell.swift in Sources */,
+				11E7AA0F22477FAA00AE14EB /* BingoEventTableViewCell.swift in Sources */,
+				1165DC45223555DE003D5F6B /* AddGoalViewController.swift in Sources */,
+				11E7AA19224A372300AE14EB /* ViewSOHBTableViewController.swift in Sources */,
+				115DCB2E222ADC3A003EE7A4 /* BingoViewController.swift in Sources */,
+				11856DA42243B94300A13A59 /* PredictorViewController.swift in Sources */,
+				116902CA223576770062D92B /* ViewPlayerViewController.swift in Sources */,
+				11856DA02242B30200A13A59 /* AdminBingoViewController.swift in Sources */,
+				1165DC30223011FB003D5F6B /* TeamsTableViewController.swift in Sources */,
+				11B419AE225F2F120092035D /* PenaltyItem.swift in Sources */,
+				1165DC322230120F003D5F6B /* TeamItem.swift in Sources */,
+				115DCB2C222AC86F003EE7A4 /* PlayerTableViewCell.swift in Sources */,
+				115DCAE9222A8E72003EE7A4 /* ViewController.swift in Sources */,
+				11E7AA1B224A373900AE14EB /* TicketTableViewCell.swift in Sources */,
+				115DCB2A222AC730003EE7A4 /* PlayerItem.swift in Sources */,
+				115A0FBB224BF35600560B9A /* TicketSOHBItem.swift in Sources */,
+				11E7AA17224A371700AE14EB /* View5050TableViewController.swift in Sources */,
+				11E7AA15224A370400AE14EB /* AdminTicketsViewController.swift in Sources */,
+				1165DC3D22351A11003D5F6B /* FYP.xcdatamodeld in Sources */,
+				11856D9E2242B2EE00A13A59 /* AdminGamesViewController.swift in Sources */,
+				115DCAE7222A8E72003EE7A4 /* AppDelegate.swift in Sources */,
+				1165DC3F22352029003D5F6B /* Ticket50Item.swift in Sources */,
+				1165DC3422303764003D5F6B /* AddFixtureViewController.swift in Sources */,
+				115DCB30222ADD17003EE7A4 /* BingoEventItem.swift in Sources */,
+				115DCB18222A9012003EE7A4 /* FixtureTableViewCell.swift in Sources */,
+				115A0FB9224BF06A00560B9A /* WalletTableViewCell.swift in Sources */,
+				11754CEC224CFDCD00EA0D9D /* BuySOHBViewController.swift in Sources */,
+				115A0FB7224BEF0700560B9A /* WalletViewController.swift in Sources */,
+				11AB8FBF22300C5D0043E6F4 /* TeamTableViewCell.swift in Sources */,
+				11E7AA11224A1C6200AE14EB /* AdminPlayersTableViewController.swift in Sources */,
+				11582857224AD2D900363D93 /* UserItem.swift in Sources */,
+				11E7AA13224A242100AE14EB /* AddPlayerViewController.swift in Sources */,
+				112A24CF2236B1B20015E6B7 /* ViewEventViewController.swift in Sources */,
+				1165DC3A22304ACC003D5F6B /* AdminFixtureViewController.swift in Sources */,
+				115DCB20222A988E003EE7A4 /* FixtureViewController.swift in Sources */,
+				11856DA22242B95600A13A59 /* AddBingoEventViewController.swift in Sources */,
+				115DCB24222AAAE3003EE7A4 /* EventViewController.swift in Sources */,
+				115DCB1E222A985A003EE7A4 /* EventTableViewCell.swift in Sources */,
+				1165DC3622304142003D5F6B /* AddTeamViewController.swift in Sources */,
+				11AB8FBB223007F00043E6F4 /* AdminFixturesTableViewController.swift in Sources */,
+				115DCB28222AC4B6003EE7A4 /* PlayersTableViewController.swift in Sources */,
+				115DCB1C222A916B003EE7A4 /* FixtureItem.swift in Sources */,
+				11027903225E492C006BC071 /* BingoTableViewCell.swift in Sources */,
+				115DCB1A222A906C003EE7A4 /* HomeTableViewController.swift in Sources */,
+				115DCB22222AA139003EE7A4 /* EventItem.swift in Sources */,
+				1165DC4322354F04003D5F6B /* AddPenaltyViewController.swift in Sources */,
+				11582855224ACA2A00363D93 /* Buy5050ViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		115DCAF6222A8E73003EE7A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				115DCAFF222A8E73003EE7A4 /* FYPTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		115DCB01222A8E73003EE7A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				115DCB0A222A8E73003EE7A4 /* FYPUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		115DCAFC222A8E73003EE7A4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 115DCAE2222A8E72003EE7A4 /* FYP */;
+			targetProxy = 115DCAFB222A8E73003EE7A4 /* PBXContainerItemProxy */;
+		};
+		115DCB07222A8E73003EE7A4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 115DCAE2222A8E72003EE7A4 /* FYP */;
+			targetProxy = 115DCB06222A8E73003EE7A4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		115DCAEA222A8E72003EE7A4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				115DCAEB222A8E72003EE7A4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		115DCAF2222A8E73003EE7A4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				115DCAF3222A8E73003EE7A4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		115DCB0C222A8E73003EE7A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		115DCB0D222A8E73003EE7A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		115DCB0F222A8E73003EE7A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = FYP/FYP.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9S65Z2TB3K;
+				INFOPLIST_FILE = FYP/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-S65Z2TB3K.FYP";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		115DCB10222A8E73003EE7A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = FYP/FYP.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9S65Z2TB3K;
+				INFOPLIST_FILE = FYP/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-S65Z2TB3K.FYP";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		115DCB12222A8E73003EE7A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9S65Z2TB3K;
+				INFOPLIST_FILE = FYPTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-S65Z2TB3K.FYPTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FYP.app/FYP";
+			};
+			name = Debug;
+		};
+		115DCB13222A8E73003EE7A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9S65Z2TB3K;
+				INFOPLIST_FILE = FYPTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-S65Z2TB3K.FYPTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FYP.app/FYP";
+			};
+			name = Release;
+		};
+		115DCB15222A8E73003EE7A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9S65Z2TB3K;
+				INFOPLIST_FILE = FYPUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-S65Z2TB3K.FYPUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FYP;
+			};
+			name = Debug;
+		};
+		115DCB16222A8E73003EE7A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9S65Z2TB3K;
+				INFOPLIST_FILE = FYPUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-S65Z2TB3K.FYPUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FYP;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		115DCADE222A8E72003EE7A4 /* Build configuration list for PBXProject "FYP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				115DCB0C222A8E73003EE7A4 /* Debug */,
+				115DCB0D222A8E73003EE7A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		115DCB0E222A8E73003EE7A4 /* Build configuration list for PBXNativeTarget "FYP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				115DCB0F222A8E73003EE7A4 /* Debug */,
+				115DCB10222A8E73003EE7A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		115DCB11222A8E73003EE7A4 /* Build configuration list for PBXNativeTarget "FYPTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				115DCB12222A8E73003EE7A4 /* Debug */,
+				115DCB13222A8E73003EE7A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		115DCB14222A8E73003EE7A4 /* Build configuration list for PBXNativeTarget "FYPUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				115DCB15222A8E73003EE7A4 /* Debug */,
+				115DCB16222A8E73003EE7A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		1165DC3B22351A11003D5F6B /* FYP.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				1165DC3C22351A11003D5F6B /* FYP.xcdatamodel */,
+			);
+			currentVersion = 1165DC3C22351A11003D5F6B /* FYP.xcdatamodel */;
+			path = FYP.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 115DCADB222A8E72003EE7A4 /* Project object */;
+}
